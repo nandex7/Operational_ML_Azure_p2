@@ -18,9 +18,9 @@ This project is part of Nano degree program Machine Learning with Microsoft from
 
 5) Documentation: We are going to document the model using the Swagger.
 
-6) Consume model endpoints: We are going to consume the model .
+6) Consume model endpoints.- We are going to consume the model .
 
-7) Create and publish a pipeline: We are going to publish the application with the model to be used.
+7) Create and publish a pipeline.- We are going to publish the application with the model to be used.
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
