@@ -75,7 +75,7 @@ We can cosume the model for this test we need to run:  ( Don't forget to update 
 
 We can se the result based in the json data we are passing  variables to predict  if the client has suscribed a term deposit and the result is in the image.
 
-# Two sets of data to score, so we get two results back
+Two sets of data to score, so we get two results back
 data = {"data":
         [
           {
