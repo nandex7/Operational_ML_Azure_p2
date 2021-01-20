@@ -45,6 +45,10 @@ The Best Model is showed for deployment.
 Deploying the Best Model will allow to interact with the HTTP API service and interact with the model by sending data over POST requests.
 ![DeployModel](./Images/DeployModel.png)
 
+URL Aplication Insight. 
+![aplicationinsighturl](./Images/aplicationinsighturl.png)
+
+
 ### Step 4: Enable Application Insights
 
 For this step we have to download first the file config.json and later to run: python logs.py.
@@ -133,6 +137,9 @@ $ python endpoint.py
 ### Step 7: Create and publish pipeline
 We use Jupyter Notebook provided with the steps to have all the steps. 
 
+
+![publishpipelineJupyterFinished](./Images/publishpipelineJupyterFinished.png)
+
 ![PipelineRunOverview](./Images/PipelineRunOverview.png)
 
 ![publishpipeline](./Images/publishpipeline.png)
@@ -140,6 +147,10 @@ We use Jupyter Notebook provided with the steps to have all the steps.
 ![publishedpipeline](./Images/publishedpipeline.png)
 
 ![PipelineJupyter](./Images/PipelineJupyter.png)
+
+![RundetailsCompleted](./Images/RundetailsCompleted.png)
+
+![PublishRestEndpoint](./Images/PublishRestEndpoint.png)
 
 
 
@@ -152,3 +163,8 @@ Enable the option with  Deeplearning in AutoML configuration could improve the a
 
 Balancing the data is also an option to improve the accuracy of the models.
 
+You can check more about imbalanced datasts machine learning.
+
+https://towardsdatascience.com/handling-imbalanced-datasets-in-machine-learning-7a0e84220f28
+
+https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/
