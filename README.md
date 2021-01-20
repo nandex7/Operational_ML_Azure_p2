@@ -1,8 +1,10 @@
-# Operataionalizing Machine Learning
+# Operationalizing Machine Learning
 
-This project is part of Nano degree program Machine Learning with Microsoft from Udacity. We created all the steps to create ML project with authentification , using the option of Auto ML microsoft provide us, Deployment and finding the best model , enable logging for reviewing details in the process, consume models endpoints and create and publish a pipeline , and last Documentation. 
+This project is part of Nano degree program Machine Learning with Microsoft from Udacity.
+We show the steps of creating a machine learning project with azure and steps for deployment the best model and getting available for production and consume it with a rest API. Also we are going to enable logs, monitoring and documentation.
+We want to predict if the client has subscribed a term deposit. Based to Age, type of job, marital, education, has credit in default, housing, loan, type of contact, last contact, day of the week of the contact, duration in seconds, campaigns, and other variables
 
-
+ We created all the steps to create ML project with authentification , using the option of Auto ML microsoft provide us, Deployment and finding the best model , enable logging for reviewing details in the process, consume models endpoints and create and publish a pipeline , and last Documentation. 
 
 ## Architectural Diagram
 
@@ -53,7 +55,6 @@ We can also monitor and view logs. it is configurable at deploy time with a chec
 
 ![ApplicationInsight](./Images/ApplicationInsight.png)
 
-
 ### Step 5: Swagger Documentation
 We download the Swagger JSON file for deployed models in the Azure and we run swagger.sh will download the latest Swagger container with Docker, and it will run it on port 80 by default.
 After we run serve.py will start a Python server on port 8000. This script needs to be right next to the downloaded swagger.json 
@@ -66,9 +67,7 @@ $ ./swagger.sh
 Previous download the swagger.json in the deployment model we run:
 $ python serve.py
 ![Swagger](./Images/Swagger.png)
-
-
-![Swaggerpayload](./Images/Swaggerpayload.png)
+![Swaggerlocalhost9000](./Images/Swaggerlocalhost9000.png)
 
 ### Step 6: Consume Model Endpoints
 We can cosume the model for this test we need to run:  ( Don't forget to update the endpoint and key)
@@ -128,8 +127,17 @@ data = {"data":
 $ python endpoint.py 
 ![ConsumeEndpoint](./Images/ConsumeEndpoint.png)
 
+![benchmarketing](./Images/benchmarketing.png)
+
+
 ### Step 7: Create and publish pipeline
 We use Jupyter Notebook provided with the steps to have all the steps. 
+
+![PipelineRunOverview](./Images/PipelineRunOverview.png)
+
+![publishpipeline](./Images/publishpipeline.png)
+
+![publishedpipeline](./Images/publishedpipeline.png)
 
 ![PipelineJupyter](./Images/PipelineJupyter.png)
 
@@ -137,6 +145,7 @@ We use Jupyter Notebook provided with the steps to have all the steps.
 
 ## Screen Recording
 Screen recording link.
+https://www.youtube.com/watch?v=fbG26dOuVJ0&feature=youtu.be
 
 ## Standout Suggestions
 Enable the option with  Deeplearning in AutoML configuration could improve the accuracy of the model and GPU option trying other compute target.
